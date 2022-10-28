@@ -81,36 +81,36 @@ body {
 }
 
 
-.cards_wrap .card_itmes .discpiption
+.cards_wrap .card_itmes .about us
 {
-	font-size: 14px;
-	line-height: 24px;
+	font-size: 15px;
+	line-height: 25px;
 	color:aqua;
 }
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1025px)
 {
 	.cards_wrap .card_itmes{
-		width: 33%;
+		width: 34%;
 	}
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 769px)
 {
 	.cards_wrap .card_itmes{
-		width: 50%;
+		width: 51%;
 	}
 	.wrapper .header{
-		font-size: 16px;
+		font-size: 17px;
 		height: 60px;
 	}
 }
 
-@media screen and (max-width: 568px)
+@media screen and (max-width: 569px)
 {
 	.cards_wrap .card_itmes{
 		width: 100%;
 	}
 	.wrapper .header{
-		font-size: 14px;
+		font-size: 15px;
 	}
 }
