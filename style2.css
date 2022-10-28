@@ -24,7 +24,7 @@
 }
 
 .hero_wrapper h1 {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     text-align: center;
 
 }
@@ -36,17 +36,17 @@
 
 .form_code .post_code {
     display: block;
-    width: 80%;
+    width: 85%;
     margin-right: auto;
     margin-left: auto;
     border-radius: 2rem;
-    padding: .6rem;
+    padding: .5rem;
     border: none;
     outline: none;
 }
 
 .form_code button {
-    width: 40%;
+    width: 41%;
 
     margin-left: auto;
     margin-right: auto;
@@ -54,9 +54,9 @@
     background-color: aquamarine;
     margin-top: 1rem;
     color: white;
-    padding: .6rem;
+    padding: .7rem;
     border: none;
-    border-radius: .3rem;
+    border-radius: .4rem;
 }
 
 /* product section */
