@@ -40,24 +40,23 @@
     margin-right: auto;
     margin-left: auto;
     border-radius: 2rem;
-    padding: .6rem;
+    padding: .5rem;
     border: none;
     outline: none;
 }
 
 .form_code button {
-    width: 40%;
+    width: 50%;
 
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: aquamarine;
+    background-color: aqua;
     margin-top: 1rem;
-    color: white;
+    color: black;
     padding: .5rem;
     border: none;
     border-radius: .5rem;
 }
 
-/* product section */
 
