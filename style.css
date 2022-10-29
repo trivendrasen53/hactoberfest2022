@@ -1,10 +1,11 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 2;
     box-sizing: border-box;
-
+ background colar: aqua
+	
 }
 
 body {
@@ -21,10 +22,10 @@ body {
     display:absolute;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 80px;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    font-weight: 700;
+    letter-spacing: 10px;
+    font-weight: 500;
 }
 
 .cards_wrap {
@@ -46,7 +47,7 @@ body {
 
 .cards_wrap .card_inner
  {
-    background: blue;
+    background: orange;
     border-radius: 5px;
     padding: 35px 20px;
     min-width: 200px;
@@ -61,7 +62,7 @@ body {
 }
 .cards_wrap .card_inner .role_name
 {
-	color: #e36686;
+	color: dark perpal;
 	font-weight: 800;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -105,12 +106,12 @@ body {
 	}
 }
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 100px)
 {
 	.cards_wrap .card_itmes{
 		width: 110%;
 	}
 	.wrapper .header{
-		font-size: 25px;
+		font-size: 15px;
 	}
 }
