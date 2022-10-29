@@ -1,6 +1,6 @@
 * {
-    margin: 1;
-    padding: 1;
+    margin: 3;
+    padding: 3;
     box-sizing: border-box;
 }
 
@@ -15,17 +15,17 @@
 }
 
 .hero_wrapper {
-    color: white;
+    color: balue;
     position:relative;
     top: 60%;
     left: 70%;
-    transform: translate(-50%, -50%);
+    transform: translate(60%, -50%);
 
 }
 
 .hero_wrapper h1 {
     font-size: 2.3rem;
-    text-align: end;
+    text-align:   center;
 
 }
 
@@ -36,7 +36,7 @@
 
 .form_code .post_code {
     display: block;
-    width: 95%;
+    width: 75%;
     margin-right: auto;
     margin-left: auto;
     border-radius: 2rem;
@@ -46,17 +46,17 @@
 }
 
 .form_code button {
-    width: 60%;
+    width: 90%;
 
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color:gray;
+    background-color:gray black;
     margin-top: 2rem;
     color: black;
     padding: .5rem;
     border: none;
-    border-radius: .8rem;
+    border-radius: .6rem;
 }
 
 
