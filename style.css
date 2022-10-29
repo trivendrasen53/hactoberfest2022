@@ -8,14 +8,14 @@
 }
 
 body {
-    background-color: rgb(201, 201, 193);
+    background-color: white;
 }
 
 .wrapper .header {
-    width: 200%;
-    height: 60px;
+    width: 400%;
+    height: 80px;
     background: #e36686;
-    border: 6px blue;
+    border: 8px blue;
     color: #fff;
     text-align: center;
     display:absolute;
@@ -39,14 +39,14 @@ body {
 
 
 .card_itmes {
-    padding: 15px 25px;
+    padding: 25px 35px;
     width: 25%;
 
 }
 
 .cards_wrap .card_inner
  {
-    background:aqua;
+    background: blue;
     border-radius: 5px;
     padding: 35px 20px;
     min-width: 200px;
@@ -55,14 +55,14 @@ body {
 }
 .cards_wrap .card_inner img
 {
-	width: 80px;
-	height: 80px;
-	margin-bottom: 6px;
+	width: 60px;
+	height: 90px;
+	margin-bottom: 7px;
 }
 .cards_wrap .card_inner .role_name
 {
 	color: #e36686;
-	font-weight: 900;
+	font-weight: 800;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-size: 20px;
@@ -73,7 +73,7 @@ body {
 
 .card_itmes.cards_wrap .real_name
 {
-	color: gry;
+	color: yellow;
    
 	font-size: 15px;
 	font-weight: 200;
@@ -83,9 +83,9 @@ body {
 
 .cards_wrap .card_itmes .about us
 {
-	font-size: 15px;
+	font-size: 25px;
 	line-height: 25px;
-	color:yellow;
+	color:pink;
 }
 @media screen and (max-width: 1025px)
 {
@@ -97,20 +97,20 @@ body {
 @media screen and (max-width: 765px)
 {
 	.cards_wrap .card_itmes{
-		width: 60%;
+		width: 80%;
 	}
 	.wrapper .header{
 		font-size: 15px;
-		height: 60px;
+		height: 80px;
 	}
 }
 
 @media screen and (max-width: 500px)
 {
 	.cards_wrap .card_itmes{
-		width: 100%;
+		width: 110%;
 	}
 	.wrapper .header{
-		font-size: 15px;
+		font-size: 25px;
 	}
 }
