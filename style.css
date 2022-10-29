@@ -15,22 +15,22 @@ body {
     width: 200%;
     height: 60px;
     background: #e36686;
-    border: 6px white;
+    border: 6px blue;
     color: #fff;
     text-align: center;
     display:absolute;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .cards_wrap {
     padding: 25px;
     width: 100%;
-    display:flex;
+    display:absolute;
     justify-content: space-between;
     flex-wrap: wrap;
   
@@ -46,10 +46,10 @@ body {
 
 .cards_wrap .card_inner
  {
-    background:yellow;
+    background:aqua;
     border-radius: 5px;
     padding: 35px 20px;
-    min-width: 225px;
+    min-width: 200px;
     min-height: 325px;
    width: 100%
 }
@@ -75,7 +75,7 @@ body {
 {
 	color: gry;
    
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: 200;
 	margin: 5px 0 10px;
 }
@@ -85,7 +85,7 @@ body {
 {
 	font-size: 15px;
 	line-height: 25px;
-	color:blue;
+	color:yellow;
 }
 @media screen and (max-width: 1025px)
 {
@@ -97,7 +97,7 @@ body {
 @media screen and (max-width: 765px)
 {
 	.cards_wrap .card_itmes{
-		width: 50%;
+		width: 60%;
 	}
 	.wrapper .header{
 		font-size: 15px;
@@ -105,7 +105,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 565px)
+@media screen and (max-width: 500px)
 {
 	.cards_wrap .card_itmes{
 		width: 100%;
