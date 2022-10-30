@@ -1,6 +1,6 @@
 * {
-    margin: 3;
-    padding: 3;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@
 
 .hero_wrapper {
     color: balue;
-    position:relative;
+    position:absolute;
     top: 60%;
     left: 70%;
     transform: translate(60%, -50%);
@@ -25,7 +25,7 @@
 
 .hero_wrapper h1 {
     font-size: 4.8px;
-    text-align:   center;
+    text-align: center;
 
 }
 
@@ -51,12 +51,12 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color:gray black;
+    background-color:blue;
     margin-top: 2rem;
     color: volite;
     padding: .5rem;
     border: none;
-    border-radius: .6rem;
+    border-radius: .5rem;
 }
 
 
