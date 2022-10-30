@@ -4,19 +4,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- background colar:yellow;
+ background colar:Blue;
 	
 }
 
 body {
-    background-color: gry;
+    background-color: Red;
 }
 
 .wrapper .header {
     width: 800%;
     height: 50px;
     background: #e36686;
-    border: 8px red;
+    border: 8px yellow;
     color: #fff;
     text-align: center;
     display :flex;
@@ -48,7 +48,7 @@ body {
 .cards_wrap .card_inner
  {
     background:aqua;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 35px 20px;
     min-width: 200px;
     min-height: 325px;
@@ -57,7 +57,7 @@ body {
 .cards_wrap .card_inner img
 {
 	width: 60px;
-	height: 90px;
+	height: 80px;
 	margin-bottom: 7px;
 }
 .cards_wrap .card_inner .role_name
@@ -76,7 +76,7 @@ body {
 {
 	color: yellow;
    
-	font-size: 15px;
+	font-size: 25px;
 	font-weight: 200;
 	margin: 5px 0 10px;
 }
@@ -88,7 +88,7 @@ body {
 	line-height: 25px;
 	color:blue;
 }
-@media screen and (max-width: 1025px)
+@media screen and (max-width: 1825px)
 {
 	.cards_wrap .card_itmes{
 		width: 35%;
@@ -98,7 +98,7 @@ body {
 @media screen and (max-width: 765px)
 {
 	.cards_wrap .card_itmes{
-		width: 80%;
+		width: 70%;
 	}
 	.wrapper .header{
 		font-size: 15px;
