@@ -1,36 +1,36 @@
 
 
 * {
-    margin: 1;
-    padding: 2;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
- background colar: aqua
+ background colar: green
 	
 }
 
 body {
-    background-color: white;
+    background-color: solad;
 }
 
 .wrapper .header {
-    width: 400%;
-    height: 80px;
+    width: 800%;
+    height: 50px;
     background: #e36686;
-    border: 8px blue;
+    border: 8px red;
     color: #fff;
     text-align: center;
     display:absolute;
     justify-content: center;
-    align-items: center;
+    align-items: non;
     font-size: 80px;
     text-transform: uppercase;
     letter-spacing: 10px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .cards_wrap {
     padding: 25px;
-    width: 100%;
+    width: 800%;
     display:absolute;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -47,7 +47,7 @@ body {
 
 .cards_wrap .card_inner
  {
-    background: orange;
+    background: yellow;
     border-radius: 5px;
     padding: 35px 20px;
     min-width: 200px;
@@ -63,10 +63,10 @@ body {
 .cards_wrap .card_inner .role_name
 {
 	color: dark perpal;
-	font-weight: 800;
+	font-weight: 400;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 10px;
 	white-space: nowrap;
     overflow: hidden;
     
