@@ -4,12 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- background colar: green
+ background colar:yellow;
 	
 }
 
 body {
-    background-color: solad;
+    background-color: gry;
 }
 
 .wrapper .header {
@@ -19,7 +19,7 @@ body {
     border: 8px red;
     color: #fff;
     text-align: center;
-    display:absolute;
+    display :flex;
     justify-content: center;
     align-items: non;
     font-size: 80px;
@@ -47,7 +47,7 @@ body {
 
 .cards_wrap .card_inner
  {
-    background: yellow;
+    background:aqua;
     border-radius: 5px;
     padding: 35px 20px;
     min-width: 200px;
@@ -62,7 +62,7 @@ body {
 }
 .cards_wrap .card_inner .role_name
 {
-	color: dark perpal;
+	color: aquamarine;
 	font-weight: 400;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -86,7 +86,7 @@ body {
 {
 	font-size: 25px;
 	line-height: 25px;
-	color:pink;
+	color:blue;
 }
 @media screen and (max-width: 1025px)
 {
@@ -112,6 +112,6 @@ body {
 		width: 110%;
 	}
 	.wrapper .header{
-		font-size: 15px;
+		font-size: 20px;
 	}
 }
