@@ -4,19 +4,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- background colar:Blue;
+ background colar:indigo;
 	
 }
 
 body {
-    background-color: Red;
+    background-color: pink;
 }
 
 .wrapper .header {
     width: 800%;
     height: 50px;
     background: #e36686;
-    border: 8px Green;
+    border: 8px black;
     color: #fff;
     text-align: center;
     display :flex;
@@ -101,15 +101,15 @@ body {
 		width: 70%;
 	}
 	.wrapper .header{
-		font-size: 15px;
-		height: 80px;
+		font-size: 150px;
+		height: 70px;
 	}
 }
 
 @media screen and (max-width: 110px)
 {
 	.cards_wrap .card_itmes{
-		width: 110%;
+		width: 100%;
 	}
 	.wrapper .header{
 		font-size: 25px;
