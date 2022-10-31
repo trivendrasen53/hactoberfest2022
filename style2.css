@@ -19,7 +19,7 @@
     position:absolute;
     top: 60%;
     left: 75%;
-    transform: translate(60%, -50%);
+    transform: translate(50%, -50%);
 
 }
 
@@ -36,22 +36,22 @@
 
 .form_code .post_code {
     display: login;
-    width: 65%;
+    width: 70%;
     margin-right: auto;
     margin-left: auto;
     border-radius: 2rem;
-    padding: .6rem;
-    border:  4px;
+    padding: .7rem;
+    border:  5px;
     outline: none;
 }
 
 .form_code button {
-    width:  85%;
+    width:  90%;
 
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color:Green;
+    background-color: white;
     margin-top: 3rem;
     color: red;
     padding: .6rem;
