@@ -16,7 +16,7 @@ body {
     width: 800%;
     height: 50px;
     background: #e36686;
-    border: 8px Green;
+    border: 8px yellow;
     color: #fff;
     text-align: center;
     display :flex;
@@ -25,11 +25,11 @@ body {
     font-size: 80px;
     text-transform: uppercase;
     letter-spacing: 10px;
-    font-weight: 600;
+    font-weight: 650;
 }
 
 .cards_wrap {
-    padding: 25px;
+    padding: 35px;
     width: 800%;
     display:absolute;
     justify-content: space-between;
@@ -40,16 +40,16 @@ body {
 
 
 .card_itmes {
-    padding: 25px 35px;
-    width: 25%;
+    padding: 35px 40px;
+    width: 35%;
 
 }
 
 .cards_wrap .card_inner
  {
     backgroundp:pink;
-    border-radius: 6px;
-    padding: 35px 20px;
+    border-radius: 8px;
+    padding: 36px 20px;
     min-width: 200px;
     min-height: 325px;
    width: 100%
@@ -63,7 +63,7 @@ body {
 .cards_wrap .card_inner .role_name
 {
 	color: aquamarine;
-	font-weight: 400;
+	font-weight: 450;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	font-size: 10px;
@@ -76,8 +76,8 @@ body {
 {
 	color: yellow;
    
-	font-size: 25px;
-	font-weight: 220;
+	font-size: 27px;
+	font-weight: 200;
 	margin: 5px 0 10px;
 }
 
