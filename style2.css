@@ -15,48 +15,48 @@
 }
 
 .hero_wrapper {
-    color: blue;
+    color: white;
     position:absolute;
-    top: 60%;
-    left: 75%;
+    top: 50%;
+    left: 95%;
     transform: translate(50%, -50%);
 
 }
 
-.hero_wrapper h1 {
+.hero_images h1 {
     font-size: 5.8px;
     text-align: center;
 
 }
 
 .form_code {
-    text-align: center;
+    paten-align: center;
 
 }
 
 .form_code .post_code {
     display: login;
-    width: 70%;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 2rem;
-    padding: .7rem;
-    border:  5px;
+    border-radius: 3rem;
+    padding: .9rem;
+    border:  9px;
     outline: none;
 }
 
 .form_code button {
-    width:  90%;
+    width:  30%;
 
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: white;
+    background-color: black;
     margin-top: 3rem;
-    color: red;
+    color: orange;
     padding: .6rem;
     border: none;
-    border-radius: .6rem;
+    border-radius: .7rem;
 }
 
 
