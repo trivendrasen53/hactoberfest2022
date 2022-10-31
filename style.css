@@ -9,14 +9,14 @@
 }
 
 body {
-    background-color: blue;
+    background-color: red;
 }
 
 .wrapper .header {
     width: 850%;
     height: 55px;
     background: #e36686;
-    border: 8px Green;
+    border: 8px yellow;
     color: #fff;
     text-align: center;
     display :flex;
@@ -25,7 +25,7 @@ body {
     font-size: 80px;
     text-transform: uppercase;
     letter-spacing: 10px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .cards_wrap {
@@ -40,15 +40,15 @@ body {
 
 
 .card_itmes {
-    padding: 25px 35px;
-    width: 25%;
+    padding: 20px 25px;
+    width: 15%;
 
 }
 
 .cards_wrap .card_inner
  {
-    backgroundp:pink;
-    border-radius: 6px;
+    backgroundp:red;
+    border-radius: 4px;
     padding: 35px 20px;
     min-width: 250px;
     min-height: 325px;
