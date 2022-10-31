@@ -7,7 +7,7 @@
 
 .hero_image {
     background-image: (https://c4.wallpaperflare.com/wallpaper/80/859/695/coffee-beans-couple-wallpaper-preview.jpg);
-    height: 590vh;
+    height: 580vh;
     background-repeat: no-repeat;
     background-size:cover;
     position:relative;
@@ -17,14 +17,14 @@
 .hero_wrapper {
     color: blue;
     position:absolute;
-    top: 60%;
-    left: 75%;
+    top: 69%;
+    left: 73%;
     transform: translate(60%, -50%);
 
 }
 
 .hero_wrapper h1 {
-    font-size: 5.8px;
+    font-size: 4.4px;
     text-align: center;
 
 }
@@ -36,7 +36,7 @@
 
 .form_code .post_code {
     display: login;
-    width: 65%;
+    width: 69%;
     margin-right: auto;
     margin-left: auto;
     border-radius: 2rem;
@@ -46,7 +46,7 @@
 }
 
 .form_code button {
-    width:  85%;
+    width:  95%;
 
     margin-left: auto;
     margin-right: auto;
