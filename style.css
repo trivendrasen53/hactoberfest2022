@@ -1,31 +1,30 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
     box-sizing: border-box;
- background colar:Blue;
+ background colar:AQUA;
 	
 }
 
 body {
-    background-color: blue;
+    background-color: red;
 }
 
 .wrapper .header {
     width: 850%;
     height: 55px;
-    background: #e36686;
-    border: 8px Green;
+    background: solid;
+    border: 8px yellow;
     color: #fff;
     text-align: center;
     display :flex;
-    justify-content: center;
     align-items: non;
     font-size: 80px;
     text-transform: uppercase;
-    letter-spacing: 10px;
-    font-weight: 700;
+    letter-spacing: 20px;
+    font-weight: 500;
 }
 
 .cards_wrap {
@@ -106,10 +105,10 @@ body {
 	}
 }
 
-@media screen and (max-width: 110px)
+@media screen  (max-width: 210px)
 {
 	.cards_wrap .card_itmes{
-		width: 110%;
+		width: 210%;
 	}
 	.wrapper .header{
 		font-size: 25px;
