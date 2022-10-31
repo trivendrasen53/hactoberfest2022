@@ -9,12 +9,12 @@
 }
 
 body {
-    background-color: Red;
+    background-color: blue;
 }
 
 .wrapper .header {
-    width: 800%;
-    height: 50px;
+    width: 850%;
+    height: 55px;
     background: #e36686;
     border: 8px Green;
     color: #fff;
@@ -25,11 +25,11 @@ body {
     font-size: 80px;
     text-transform: uppercase;
     letter-spacing: 10px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .cards_wrap {
-    padding: 25px;
+    padding: 30px;
     width: 800%;
     display:absolute;
     justify-content: space-between;
@@ -50,7 +50,7 @@ body {
     backgroundp:pink;
     border-radius: 6px;
     padding: 35px 20px;
-    min-width: 200px;
+    min-width: 250px;
     min-height: 325px;
    width: 100%
 }
@@ -74,7 +74,7 @@ body {
 
 .card_itmes.cards_wrap .real_name
 {
-	color: yellow;
+	color: green;
    
 	font-size: 25px;
 	font-weight: 220;
